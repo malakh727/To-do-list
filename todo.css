@@ -1,0 +1,125 @@
+body{
+    /* background-image: linear-gradient(to right, #fff3f8, #e4cfdd, #c4adc6, #a08db2, #77719f); */
+    background-image: url("https://wallpaper.dog/large/20468644.jpg");
+}
+#all{
+    background: rgba(155, 76, 175, 0.3);
+    justify-content: space-evenly;
+    /* background-color:white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35em;
+    width: 32em;
+    margin-top: 2em;
+    margin-left: 30%;
+    padding-top: 1.5em;
+    padding-bottom:2em;
+    border-radius: 3em;
+    border: 2px solid #474554;
+}
+
+h1{
+    color: #474554;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.enter{
+    height: 8em; 
+    width: 50em;
+    padding-left: 20em;
+    
+}
+.input{
+    color: #474554;
+    height: 2em;
+    width: 25em;
+    margin-left: 2em;
+    margin-top: 1em;
+    border-color: #474554;
+    border-radius: 0.8em;
+}
+.addbtn{
+    background-color: #FFF3F8;
+    color: #77719F;
+    border: 2px solid #77719f;
+    border-radius: 0.8em;
+    height: 2.5em;
+    width:5em;
+    cursor: pointer;
+}
+.addbtn:hover {
+    background-color: #77719F; /* Green */
+    color: #FFF3F8;
+  }
+.view{
+    /* border: 0.5px solid #A29CFF; */
+    
+    border-radius: 2em;
+    height: 40em; 
+    width: 30em;
+    padding-left: 1em;
+}
+h2{
+    color:#474554;
+    text-align: center;
+}
+.thelist{
+    float:inherit;
+    background-color: #FFF3F8;
+    border: 2px solid #474554;
+    border-radius: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 2em;
+
+}
+/* #thelist1{
+    float:inherit;
+    background-color: #FFF3F8;
+    border: 2px solid #474554;
+    border-radius: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.1em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 2em;
+
+} */
+#checkbox{
+    height: inherit;
+    margin: inherit;
+}
+.thein{
+    color: #474554;
+    font: 1.5em sans-serif;
+    /* border: 0.3px solid #77719F; */
+    border-radius: 0.5em;
+    flex-grow: 20;
+    padding-left: 0.3em;
+    height: inherit;
+    margin: inherit;
+}
+.btn-light{
+    flex-grow: 1;
+    height:2em;
+    margin: 0.2em;
+    background-color: #FFF3F8;
+    color: #474554;
+    border-style: hidden;
+    border: 2px solid #474554; 
+    border-radius: 40%;
+    cursor: pointer;
+}
+.btn-light:hover {
+    background-color: #474554;
+    color: #FFF3F8;
+  }
+
